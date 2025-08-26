@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="header">
     <span> Logo </span>
 
     <span> Quem somos </span>
@@ -11,3 +11,12 @@
     <button>Ver vagas</button>
   </section>
 </template>
+
+<style lang="scss">
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px 150px;
+}
+</style>
